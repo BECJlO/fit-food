@@ -1,0 +1,1520 @@
+
+
+@import "__fonts"
+@import "__libs"
+@import "__settings"
+
+
+//----------------------------------
+html
+    font-size: 10px
+
+
+*,ul,li
+    padding: 0
+    margin: 0
+
+body
+    font-family: $addFont
+    font-size: 1.0rem
+
+a
+    text-decoration: none
+
+input:focus
+    outline-offset: none
+
+//--------------------------
+.wrapper
+    margin: 0 auto
+    max-width: 1260px
+    padding: 0 10px
+
+
+//
+.clearfix:after
+    content: ""
+    clear: both
+    display: block
+.clearfix:before
+    content: ""
+    clear: both
+    display: block
+
+//---------------BG-image
+
+.background-img-1
+    background-image: url(../img/bg1.jpg)
+    background-position: right top
+    background-repeat: no-repeat
+
+.background-img-2
+    background-image: url(../img/bg2.jpg)
+    background-position: right top
+    background-repeat: no-repeat
+
+.background-img-3
+    background-image: url(../img/bg3.jpg)
+    background-position: center top
+    background-repeat: no-repeat
+
+.background-img-4
+    background-image: url(../img/bg4.jpg)
+    background-position: right top
+    background-repeat: no-repeat
+
+.background-img-5
+    background-image: url(../img/bg5.jpg)
+    background-position: right top
+    background-repeat: no-repeat
+
+.background-img-6
+    background-image: url(../img/bg6.jpg)
+    background-position: right top
+    background-repeat: no-repeat
+
+.background-img-7
+    background-image: url(../img/bg7.jpg)
+    background-position: center bottom
+    background-repeat: no-repeat
+
+.background-inset-1
+    background-image: url(../img/bgi_1.jpg)
+    background-position: center top
+    background-repeat: no-repeat
+
+.background-inset-2
+    background-image: url(../img/bgi_2.jpg)
+    background-position: center top
+    background-repeat: no-repeat
+
+.background-inset-3
+    background-image: url(../img/bgi_3.jpg)
+    background-position: center top
+    background-repeat: no-repeat
+
+.background-inset-4
+    background-image: url(../img/bgi_4.jpg)
+    background-position: center top
+    background-repeat: no-repeat
+    background-size: cover
+//------------Header
+
+
+//---------------- top line header
+.header-top-line
+    //margin: 80px 65px 0
+    display: flex
+    justify-content: space-between
+
+
+.logo
+    margin-top: 20px
+    a
+        display: block
+
+
+
+.intermedia
+    margin: 80px 0 65px auto
+    height: 30px
+    display: flex
+    margin-left: auto
+
+.numb-tel
+    span
+        font-family: $addFont
+        font-size: 1.4rem
+        line-height: 30px
+        color: $addGrayColor
+        white-space: nowrap
+
+
+.request-call
+    margin-left: 20px
+    font-family: $addFont
+    font-size: 1.2rem
+    text-transform: uppercase
+    color: white
+    line-height: 30px
+    padding: 0 30px
+    border: none
+    background-color: $mainGreenColor
+    transition: .3s
+    &:hover
+        background-color: $mainGrayColor
+        cursor: pointer
+    &:focus
+        outline: none
+.social-wides
+    width: 140px
+    margin: 0 auto
+    a
+        display: block
+        float: left
+        height: 30px
+        width: 30px
+        margin-left: 16px
+        +shadow
+        &.vk
+            background-image: url(../img/spritesheet.png)
+            background-repeat: no-repeat
+            background-position: -82px -46px
+        &.fb
+            background-image: url(../img/spritesheet.png)
+            background-repeat: no-repeat
+            background-position: -41px -55px
+        &.irg
+            background-image: url(../img/spritesheet.png)
+            background-repeat: no-repeat
+            background-position: -72px -5px
+
+
+
+
+//----------Nav---------------------
+
+.green-menu-line
+    box-sizing: border-box
+    border: 1px solid $mainGreenColor
+    border-right: 0
+    border-left: 0
+    background-color: rgba(250,249,247,.6)
+    height: 48px
+.main-menu
+    height: 100%
+    display: flex
+    justify-content: flex-start
+    ul
+        list-style: none
+        display: inline-block
+        li
+            height: 100%
+            display: inline-block
+            padding: 0
+            a
+                display: block
+                font-family: $addFont
+                font-size: 1.2rem
+                line-height: 12px
+                color: $addGrayColor
+                text-transform: uppercase
+                padding: 18px 27px
+                padding-left: 0
+                letter-spacing: .8px
+                &:hover
+                    color: $mainGreenColor
+                    transition: .3s
+//--------------------------// NAv
+
+
+//--------- MAin-screeen
+.main-image
+    //background-image: url(../img/start_image.png)
+    //background-position: center
+    //background-repeat: no-repeat
+.main-screen
+    box-sizing: border-box
+    height: 450px // max
+    padding: 66px 0 0 0
+    h2
+        //margin: 0
+        font-family: $titleFont
+        font-size: 4.2rem
+        font-weight: 400
+        color: $addGrayColor
+        line-height: 4.8rem
+    p
+        margin: 15px 0 23px 0
+        font-family: $addTitleFont
+        color: $addGrayColor
+        font-size: 1.8rem
+        line-height: 2.4rem
+        font-weight: 500
+    a
+        background-color: $mainGreenColor
+        display: block
+        height: 50px
+        width: 50px
+        border-radius: 50%
+        position: relative
+        transition: .2s
+        &:before
+            content: ""
+            position: absolute
+            display: block
+            width: 21px
+            height: 14px
+            top: 19px
+            right: 14px
+            background-image: url(../img/spritesheet.png)
+            background-repeat: no-repeat
+            background-position: -41px -31px
+        &:hover
+            background-color: $mainGrayColor
+//------------------ // Main Screen
+
+
+
+//--------------- // add nav
+.nav-bar-wrapper
+    width: 100%
+    background: linear-gradient(to right, $addGrayColor 0%,$addGrayColor 50%,#ffffff 50%,$addYellowColor 50%,$addYellowColor 100%)
+
+.nav-bar
+    ul
+        display: flex
+        list-style: none
+        li
+            box-sizing: border-box
+            min-height: 186px
+            display: flex
+            font-size: 1rem
+            height: 100%
+            width: calc(100% / 3)
+            background-color: $mainGreenColor
+            justify-content: flex-start
+            align-items: center
+            background: url(../img/mini_2.png)
+            background-position: right top
+            //background-repeat: no-repeat
+            a
+                display: block
+                box-sizing: border-box                
+                font-family: $titleFont
+                font-size: 3.6rem
+                text-align: left
+                color: white
+                padding: 35px 9%
+                line-height: 1em
+                letter-spacing: 1px
+            &.item-1
+                background-color: $mainYellowColor
+                background: url(../img/mini_1.png)
+                background-position: right top
+                border-right: 1px solid white
+            &.item-3
+                background-color: $mainGrayColor
+                background-image: url(../img/mini_3.png)
+                background-position: right top
+                border-left: 1px solid white
+//--------------------///// add nav
+
+
+//-------------- change -ration
+.change-rasion
+    padding: 75px 0 85px 0
+    h2
+        text-align: center
+        font-family: $titleFont
+        font-size: 3.6rem
+        text-transform: uppercase
+        font-weight: 400
+        line-height: 1
+        color: $textGrayColor
+        letter-spacing: 1px
+    p
+        text-align: center
+        font-family: $addFont
+        font-size: 1.8rem
+        line-height: 1
+        margin-top: 9px
+        color: $textGrayColor
+//-----------form
+.change-rasion-form
+    padding-top: 63px
+    color: $textGrayColor
+
+.gorisontal-items-form
+    margin: -10px
+    margin-bottom: 40px
+    display: flex
+    justify-content: space-between
+    div
+        margin: 10px
+        width: 25%
+        display: inline-block
+        label
+            font-family: $addTitleFont
+            font-size: 1.6rem
+            line-height: 1
+            text-align: left
+            font-weight: 500
+        input
+            box-sizing: border-box
+            height: 55px
+            margin-top: 16px
+            padding: 0 20px
+            width: 100%
+            border: 1px solid $mainGreenColor
+            color: $textGrayColor
+            font-size: 1.8rem
+            background-color: rgba(255,255,255,.6)
+            &:focus
+                outline: none
+                background-color: rgba(157,199,118,.6)
+            &:hover
+                border-color: rgba(157,199,118,.6)
+            &:focus ~ &:hover
+                border: $mainGreenColor
+        select
+            height: 55px
+            margin-top: 16px
+            width: 100%
+            border: 1px solid $mainGreenColor
+            color: $textGrayColor
+            font-family: $textGrayColor
+            font-size: 1.8rem
+            padding: 0 20px
+            &:focus > option
+                outline-color: $mainGreenColor
+            option
+                width: 100%
+                border: 1px solid $mainGreenColor
+                color: $textGrayColor
+                font-family: $addFont
+                font-size: 1.8rem
+                padding: 0 20px
+                outline: none
+                &:focus
+                    outline: $mainGreenColor
+
+
+.vertical-items
+    display: flex
+    flex-direction: row
+    margin: -10px
+    >div
+        margin: 10px
+        width: 50%
+
+.life-style-col
+    div
+        padding: 7px 0
+        label
+            font-family: $addFont
+            font-size: 1.8rem
+            cursor: pointer
+            &:hover span
+                background-color: lighten($mainGreenColor,20%)
+        input[type="checkbox"]
+            display: none
+        input[type="checkbox"] + label
+            color: $textGrayColor
+        input[type="checkbox"] + label span
+            display: inline-block
+            width: 19px
+            height: 19px
+            margin: -2px 10px 0 0
+            vertical-align: middle
+            background: white
+            border: 1px solid $mainGreenColor
+            cursor:pointer
+            &:hover
+                background-color: lighten($mainGreenColor,30%)
+        input[type="checkbox"]:checked + label span
+            background: $mainGreenColor
+    p
+        font-family: $addTitleFont
+        font-size: 2.4rem
+        font-weight: 500
+        text-transform: uppercase
+        text-align: left
+        letter-spacing: 0.02em
+        margin: 0
+        margin-bottom: 40px
+
+
+.input-tel-numb
+    label
+        font-family: $addTitleFont
+        font-size: 2.4rem
+        font-weight: 500
+        text-transform: uppercase
+        letter-spacing: 0.02em
+    input[type="tel"]
+        box-sizing: border-box
+        display: block
+        width: 100%
+        height: 55px
+        margin: 55px 0 18px 0
+        border: 1px solid $borderColor
+        padding: 19px 25px 18px 25px
+        font-family: $addFont
+        font-size: 16px
+        line-height: 1
+        color: $textGrayColor
+        background-color: rgba(255,255,255,.6)
+        &:-moz-placeholder
+            color lighten(#acacac,50%)
+            font-family: $addFont
+            font-size: 16px
+            line-height: 1
+        &::-moz-placeholder
+            color lighten(#acacac,50%)
+            font-family: $addFont
+            font-size: 16px
+            line-height: 1
+            opacity: 1
+        &:-ms-input-placeholder
+            color lighten(#acacac,50%)
+            font-family: $addFont
+            font-size: 16px
+            line-height: 1
+        &::-webkit-input-placeholder
+            color lighten(#acacac,50%)
+            font-family: $addFont
+            font-size: 16px
+            line-height: 1
+        &:hover
+            border-color: $mainGreenColor
+        &:active
+            border-color: $mainGreenColor
+        &:focus
+            outline: none
+            border-color: $mainGreenColor
+            background-color: lighten($mainGreenColor,40%)
+    button
+        width: 100%
+        height: 55px
+        background-color: $mainYellowColor
+        border: none
+        font-family: $addFont
+        font-size: 1.8rem
+        letter-spacing: 0.02em
+        color: white
+        text-transform: uppercase
+        transition: .3s
+        &:hover
+            background-color: $mainGrayColor
+            transition: .3s
+
+
+//=========================================
+
+.choice-program
+    padding: 73px 0 56px 0
+    h2
+        color: white
+        text-align: center
+        font-family: $titleFont
+        font-size: 3.6rem
+        line-height: 1
+        text-transform: uppercase
+        letter-spacing: 0.02em
+        font-weight: 400
+        color: $titleTextColor
+        padding: 0 40px
+    p
+        color: white
+        text-align: center
+        font-family: $addFont
+        font-size: 1.8rem
+        line-height: 2.8rem
+        color: $titleTextColor
+        letter-spacing: 0.02em
+        padding: 0 40px
+        margin: 15px 0 50px 0
+
+.menu-cards
+    width: 100%
+    //height: 0.4wv
+    //box-sizing: border-box
+    display: flex
+    //justify-content: space-around
+    align-items: stretch
+    flex-wrap: nowrap
+    display: flex
+    justify-content: center
+    justify-content: space-between
+    //margin: -16px
+    .menu-card
+        min-height: 550px
+        box-sizing: border-box
+        +shadow(4px, 2px)
+        //float: left
+        padding: 0
+        width: calc(100% / 3 - 32px)
+        background-color: white
+        border: 4px solid white
+        position: relative
+        //overflow: hidden
+        //flex-grow: 1
+        //align-self: stretch
+        //height: 100%
+        margin: 16px
+        //text-align: center
+        //position: relative
+        .menu-card-title
+            height: 64px
+            background-color: $mainGrayColor
+            display: flex
+            h3
+                margin: auto
+                font-family: $titleFont
+                font-size: 1.6rem
+                line-height: 1
+                text-transform: uppercase
+                letter-spacing: 0.02
+                font-weight: 400
+                color: white
+                text-align: center
+                padding: 0 10px
+        .img
+            min-height: 20%
+            border-top: 4px solid white
+            border-bottom: 4px solid white
+            overflow: hidden
+            img
+                width: 100%
+        .menu-card-text
+            width: 100%
+            span
+                display: block
+                font-family: $addTitleFont
+                font-size: 1.8rem
+                font-weight: 500
+                color: $mainGreenColor
+                text-align: center
+                width: 100%
+                margin-top: 20px
+            p
+                margin: 0
+                margin-bottom: 64px
+                padding: 10px 35px 20px 35px
+                //white-space: nowrap
+                font-family: $addFont
+                font-size: 1.4rem
+                line-height: 2.4rem
+                letter-spacing: 0.02em
+                text-align: center
+                color: $textGrayColor
+                //white-space: nowrap
+                text-overflow: ellipsis
+        .btn-look-menu
+            height: 63px
+            display: block
+            box-sizing: border-box
+            width: 100%
+            position: absolute
+            bottom: 0
+            left: 0
+            right: 0
+            background-color: $mainGreenColor
+            a
+                display: block
+                font-family: $addTitleFont
+                font-size: 1.6rem
+                font-weight: 500
+                text-transform: uppercase
+                text-align: center
+                color: white
+                line-height: 62px
+                padding: 0 23px
+                padding-top: 2px 
+                display: block
+                position: relative
+                span
+                    display: block
+                    position: absolute
+                    width: 18px
+                    height: 18px
+                    top: 25px
+                    right: 15%
+                    background-image: url(../img/spritesheet.png)
+                    background-position: -5px -5px
+                    background-repeat: no-repeat
+
+            &:hover
+                background-color: $mainGrayColor
+            //padding-bottom: 
+            //width: 100%
+            // &:after
+            //     background-image: url(../img/arrow.png)
+        // &:after
+        //     position: absolute
+        //     width: 18px
+        //     height: 18px
+        //     top: 35%
+        //     right: 15%
+        //     background-image: url(../img/spritesheet.png)
+        //     background-position: -5px -5px
+        //     background-repeat: no-repeat
+//------------------dfggdfgf-------------
+//=====================================================================
+
+
+
+//================Fit plan
+.fit-plan
+    padding: 85px 0 50px 0
+    h2
+        text-align: center
+        font-family: $titleFont
+        font-size: 3.6rem
+        line-height: 1
+        letter-spacing: 0.02em
+        text-transform: uppercase
+        color: $textGrayColor
+        font-weight: 400
+    p
+        text-align: center
+        font-family: $addFont
+        font-size: 2.4rem
+        line-height: 1
+        margin-top: 18px
+        color: $textGrayColor
+        font-weight: 400
+        letter-spacing: 0.02em
+        color: $textGrayColor
+        span
+            color: $mainGreenColor
+            font-weight: bold
+
+
+.week-days
+    margin: 40px 0 41px 0
+    display: flex
+    width: 100%
+    box-sizing: border-box
+    height: 56px
+    border: 1px solid $mainGreenColor
+    background-color: rgba(250,249,247,.6)
+    list-style: none
+    li
+        width: calc(100% / 7)
+        //box-sizing: border-box
+        //margin: 0
+        display: block
+        border-right: 1px solid $mainGreenColor
+        //line-height: 54px
+        //padding: 1px
+        //position: relative
+        p
+            //position: absolute
+            //top: 1px
+            //bottom: 1px
+            //right: 1px
+            //left: 1px
+            display: block
+            font-family: $addFont
+            font-size: 1.6rem
+            white-space: nowrap
+            overflow: hidden
+            text-align: center
+            color: #474d5a
+            margin: 0
+            line-height: 54px
+            cursor: pointer
+            //background-color: white
+            //line-height: normal
+            //display: inline-block
+            //vertical-align: middle
+        &:last-child
+            border-right: none
+        &:hover
+            background-color:  lighten($mainGreenColor,20%)
+            p
+                color: white
+        &.selected-day
+            background-color: $mainGreenColor
+            p
+                color: white
+
+
+.timeline-foot
+    margin: 0
+    padding: 0
+    display: none
+    list-style: none
+    li
+        margin: 0
+        padding: 0
+        display: block
+
+.timeline-foot.active-day
+    display: block
+
+.drop-div
+    display: none
+
+.dose-title
+    margin-bottom: 10px
+    height: 60px
+    display: flex
+    width: 100%
+    background-color: $mainGrayColor
+    justify-content: flex-start
+    white-space: nowrap
+    cursor: pointer
+    .arrow-box
+        position: relative
+        flex-shrink: 0
+        margin-left: auto
+        background-color: $mainGreenColor
+        height: 60px
+        width: 60px
+        span
+            content: ""
+            position: absolute
+            top: 22px
+            right: 15px
+            height: 16px
+            width: 26px
+            background-position: -33px -5px
+            background-repeat: no-repeat
+            background-image: url(../img/spritesheet.png)// SPRITES
+    .arrow-box.open
+        background-color: $mainYellowColor
+        span
+            background-position: -5px -31px
+            background-repeat: no-repeat
+            background-image: url(../img/spritesheet.png)// SPRITES
+
+.day-part
+    width: 187px
+    background-color: $mainGreenColor
+    font-family: $addTitleFont
+    font-size: 1.6rem
+    font-weight: 500
+    letter-spacing: 0.02em
+    line-height: 60px
+    color: white
+    text-transform: uppercase
+    text-align: center
+    padding: 0 5px
+
+.name-resept
+    width: calc((100% / 1) - 247px)
+    font-family: $addTitleFont
+    overflow: hidden
+    text-overflow: ellipsis
+    font-size: 1.6rem
+    font-weight: 500
+    line-height: 60px
+    letter-spacing: 0.02em
+    color: white
+    padding: 0 35px
+
+//------------------
+
+.image-wrapper
+    flex-basis: 390px
+    flex-shrink: 0
+    overflow: hidden
+    height: 250px
+    border: 4px solid white
+    +shadow(4px, 4px)
+    img
+        display: block
+        margin: 0 auto
+        max-height: 250px
+
+
+.resept-content
+    padding: 30px 10px 59px 50px
+    display: flex
+    flex-direction: row
+    //display: none
+    .resept-context
+        padding: 38px 42px 40px
+        flex-grow: 2
+        h3
+            font-family: $addTitleFont
+            font-size: 2.4rem
+            font-weight: 500
+            line-height: 1
+            color: $mainGrayColor
+            letter-spacing: 0.02em
+            margin-bottom: 32px
+        p
+            padding-top: 32px
+            font-family: $addFont
+            font-size: 1.6rem
+            font-weight: 400
+            line-height: 27px
+            letter-spacing: 0.02em
+            color: $mainGrayColor
+            text-align: left
+
+
+.brief-info-resept
+    width: 100%
+    margin: -5px -10px
+
+.brief-info-item
+    float: left
+    background-color: $mainGreenColor
+    font-family: $addFont
+    font-size: 14px
+    line-height: 26px
+    color: white
+    white-space: nowrap
+    padding: 0 15px
+    margin: 5px 10px
+//----------------------//----------------
+
+//================= result plan ==================
+.price-plan
+    margin: 0
+    padding: 65px 0
+    width: 100%
+    p
+        margin: 0
+        padding: 0
+        font-family: $addFont
+        font-size: 2.4rem
+        line-height: 3.6rem
+        letter-spacing: 0.02em
+        font-weight: 400
+        color: white
+        text-align: center
+        text-transform: uppercase
+        &:first-child
+            font-family: $addTitleFont
+            font-size: 3.0rem
+            font-weight: 500
+    button
+        display: block
+        margin: 40px auto 0
+        height: 48px
+        width: 41%
+        border: none
+        font-family: $addFont
+        font-size: 1.4rem
+        line-height: 42px
+        letter-spacing: 0.02em
+        font-weight: 400
+        background-color: $mainYellowColor
+        color: white
+        text-transform: uppercase
+        &:hover
+            background-color: $mainGreenColor
+        &:active
+            background-color: $mainGreenColor
+        &:focus
+            outline: none
+
+.why
+    padding: 98px 0 50px
+    h2
+        font-family: $titleFont
+        font-size: 3.6rem
+        letter-spacing: 0.02em
+        line-height: 27px
+        color: $textGrayColor
+        text-transform: uppercase
+        font-weight: 400
+        text-align: center
+        margin-bottom: 20px
+    p
+        font-family: $addFont
+        font-size: 1.8rem
+        line-height: 27px
+        letter-spacing: 0.02em
+        text-align: center
+        color: $textGrayColor
+
+.wrap-icons
+    margin-top: 80px
+    div
+        h3
+            margin-bottom: 20px
+            font-family: $titleFont
+            font-size: 3.6rem
+            letter-spacing: 0.02em
+            line-height: 27px
+            color: $textGrayColor
+            text-transform: uppercase
+            font-weight: 400
+        .icons-block
+            margin-top: 65px
+            margin-bottom: 30px
+            width: 100%
+            //background-color: red
+
+.delicious
+    box-sizing: border-box
+    float: left
+    width: 50%
+    padding-right: 40px
+    position: relative
+    h3
+        text-align: right
+    .icons-block
+        margin-left: auto
+        display: flex
+        flex-wrap: wrap
+        justify-content: flex-end
+        .icon
+            display: inline-block
+            margin: auto 0
+        .icon-1
+            img
+                opacity: 0.5
+                &:hover
+                    opacity: 1
+        .icon-2
+            img
+                opacity: 0.5
+                &:hover
+                    opacity: 1
+        .icon-3
+            img
+                opacity: 0.5
+                &:hover
+                    opacity: 1
+        .icon-4
+            img
+                opacity: 0.5
+                &:hover
+                    opacity: 1
+
+
+
+
+.useful-info
+    display: none
+    position: absolute
+    top: -25px
+    left: -100%
+    width: 100%
+    height: 100%
+    background-color: white
+    +shadow(2px, 4px)
+    z-index: 10
+    box-sizing: border-box
+    padding: 30px 50px
+    h4
+        font-family: $addTitleFont
+        font-size: 2.4rem
+        color: $textGrayColor
+        font-weight: 500
+        letter-spacing: 0.02em
+        margin: 40px 0 20px 0
+        text-align: center
+    p
+        text-align: center
+        font-size: 1.6rem
+        letter-spacing: 0.02em
+        margin-top: 64px
+    img
+        display: none
+        margin: 0 auto
+
+
+
+.useful
+    box-sizing: border-box
+    float: left
+    width: 50%
+    padding-left: 40px
+    position: relative
+    h3
+        text-align: left
+    .icons-block
+        margin-right: auto
+        display: flex
+        flex-wrap: wrap
+        justify-content: flex-start
+        .icon
+            display: inline-block
+            margin: auto 0
+        .icon-1
+            img
+                opacity: 0.5
+                &:hover
+                    opacity: 1
+        .icon-2
+            img
+                opacity: 0.5
+                &:hover
+                    opacity: 1
+        .icon-3
+            img
+                opacity: 0.5
+                &:hover
+                    opacity: 1
+        .icon-4
+            img
+                opacity: 0.5
+                &:hover
+                    opacity: 1
+
+
+.delicious-info
+    display: none
+    position: absolute
+    top: -25px
+    right: -100%
+    width: 100%
+    height: calc(100% + 25px)
+    background-color: white
+    +shadow(2px, 4px)
+    z-index: 10
+    box-sizing: border-box
+    padding: 30px 50px
+    h4
+        font-family: $addTitleFont
+        font-size: 2.4rem
+        color: $textGrayColor
+        font-weight: 500
+        letter-spacing: 0.02em
+        margin: 40px 0 20px 0
+        text-align: center
+    p
+        text-align: center
+        font-size: 1.6rem
+        letter-spacing: 0.02em
+        margin-top: 64px
+    img
+        display: none
+        margin: 0 auto
+
+.info-in-figures
+    padding-bottom: 445px
+    h3
+        text-align: center
+        font-family: $titleFont
+        font-size: 3.6rem
+        letter-spacing: 0.02em
+        line-height: 36px
+        color: $textGrayColor
+        text-transform: uppercase
+        font-weight: 400
+
+.row-info-blocks
+    margin: 70px 0
+    width: 100%
+    box-sizing: border-box
+    .info-block
+        box-sizing: border-box
+        float: left
+        width: 25%
+        padding: 0 20px
+        p.numeral
+            display: none
+            width: 100%
+            font-family: $titleFont
+            font-size: 7.2rem
+            line-height: 7.2rem
+            letter-spacing: 0.02em
+            color: $mainYellowColor
+            text-align: center
+            width: 100%
+            margin-bottom: 10px
+        p
+            font-family: $addTitleFont
+            font-size: 1.6rem
+            line-height: 2.7rem
+            letter-spacing: 0.02em
+            text-align: center
+            font-weight: 500
+            color: $textGrayColor
+            //white-space: nowrap
+//-------------------------------//----------
+
+//===============================personel-chef
+
+.personal-chef
+    padding: 92px 0
+    h3
+        text-align: center
+        font-family: $titleFont
+        font-size: 3.6rem
+        letter-spacing: 0.02em
+        line-height: 4.8rem
+        color: $textGrayColor
+        text-transform: uppercase
+        font-weight: 400
+        margin-bottom: 28px
+    p
+        font-family: $addFont
+        font-size: 1.8rem
+        line-height: 2.7rem
+        letter-spacing: 0.02em
+        text-align: center
+        color: $textGrayColor
+
+.dignity
+    padding: 40px 0
+
+.dignity-block
+    //display: table
+    div
+        //display: table-cell
+        box-sizing: border-box
+        width: 50%
+        float: left
+        img
+            max-width: 100%
+            display: block
+            margin: 0 auto
+    .image
+        max-height: 400px
+        padding: 0 30px
+
+.text
+    height: 100%
+    width: 100%
+    padding-left: 15px
+    padding-right: 80px
+    h4
+        font-family: $addTitleFont
+        font-size: 2.4rem
+        color: $textGrayColor
+        font-weight: 500
+        letter-spacing: 0.02em
+        margin: 93px 0 20px 0
+    p
+        text-align: left
+        font-size: 1.6rem
+        letter-spacing: 0.02em
+
+.about-us
+    p
+        margin-bottom: 50px
+
+
+.rev-image-slider
+    //background-color: #000
+    height: 500px
+    margin: 0
+    //padding-bottom: 50px
+//=============== Map-info================
+
+.map-info
+    width: 100%
+    position: relative
+
+.block-information-wrapper
+    float: left
+    width: 50%
+
+.block-information
+    box-sizing: border-box
+    margin-left: auto
+    max-width: 640px
+    height: 600px
+    padding: 125px 30px 0px
+
+.phone-numb
+    font-family: $addFont
+    font-size: 3.6rem
+    font-weight: 400
+    letter-spacing: 0.03em
+    line-height: 4.8rem
+    color: $textAddGrayColor
+    text-align: center
+    margin-bottom: 42px
+.admission,.delivery
+    font-family: $addFont
+    font-size: 1.8rem
+    font-weight: 400
+    letter-spacing: 0.03em
+    line-height: 2.4rem
+    color: $textAddGrayColor
+    text-align: center
+.admission
+    margin-bottom: 25px
+
+.soc-wide-block
+    padding: 55px 0
+    margin-bottom: auto
+    p
+        font-family: $addFont
+        font-size: 3.0rem
+        font-weight: 400
+        letter-spacing: 0.03em
+        line-height: 4.8rem
+        color: $textAddGrayColor
+        text-align: center
+        margin-bottom: 25px
+
+#map
+    float: left
+    width: 50%
+    max-width: 960px
+    min-height: 600px
+    //iframe
+
+//==========Footer=================
+footer
+    background-color: $mainGreenColor
+
+.pay-info
+    box-sizing: border-box
+    width: 100%
+    padding: 48px
+
+.pay-info-text
+    float: left
+    width: 50%
+    box-sizing: border-box
+    p
+        margin: 0
+        font-family: $addFont
+        font-size: 1.8rem
+        line-height: 3.0rem
+        letter-spacing: 0.03em
+        color: white
+        text-transform: uppercase
+        text-align: center
+
+.pay-info-icons
+    float: left
+    width: 50%
+    box-sizing: border-box
+    padding: 
+    position: relative
+    padding-left: 54px 
+    a
+        display: block
+        margin-right: 20px
+        float: left
+
+.visa-icon
+    float: left
+    margin-top: 15px
+    img
+        height: 31px
+        width: 97px
+
+//------------- Shadow-------------
+.shadow
+    box-shadow: 1px 2px 4px 2px rgba(0,0,0,.1)
+//---------------Modal-----------
+
+.modal-window 
+	position: fixed
+	top: 45%
+	left: 50%
+	display: none
+	opacity: 0
+	z-index: 5
+
+
+.modal-window
+    width: 620px
+    margin-left: -310px
+
+.modal-get-tel
+    height: 294px
+    margin-top: -147px
+.text-wrap
+    box-sizing: border-box
+    height: 132px
+    width: 100%
+    background-color: #f0f0f0
+    padding: 48px 48px 35px 48px
+    .modal-title
+        font-family: $addTitleFont
+        font-size: 30px
+        line-height: 1
+        letter-spacing: 0.02em
+        font-weight: 500
+        margin-bottom: 5px
+    p
+        font-family: $addFont
+        font-size: 18px
+        line-height: 1
+        letter-spacing: 0.02em
+        color: $textAddGrayColor
+.tel-input-wrap
+    box-sizing: border-box
+    height: 109px
+    width: 100%
+    background-color: #fafafa
+    padding: 26px
+    input
+        display: block
+        box-sizing: border-box 
+        height: 55px
+        width: 100%
+        border: none
+        padding: 19px 25px 18px 25px
+        font-family: $addFont
+        font-size: 16px
+        line-height: 1
+        color: $textGrayColor
+        background-color: white
+        &:-moz-placeholder
+            color lighten(#acacac,50%)
+            font-family: $addFont
+            font-size: 16px
+            line-height: 1
+        &::-moz-placeholder
+            color lighten(#acacac,50%)
+            font-family: $addFont
+            font-size: 16px
+            line-height: 1
+            opacity: 1
+        &:-ms-input-placeholder
+            color lighten(#acacac,50%)
+            font-family: $addFont
+            font-size: 16px
+            line-height: 1
+        &::-webkit-input-placeholder
+            color lighten(#acacac,50%)
+            font-family: $addFont
+            font-size: 16px
+            line-height: 1
+        //&:hover
+        //    background-color: lighten($mainGreenColor,40%)
+        //&:active
+        //    background-color: lighten($mainGreenColor,40%)
+        &:focus
+            outline: none
+            //background-color: $mainGreenColor
+            //background-color: lighten($mainGreenColor,40%)
+.modal-btn
+    display: block
+    height: 55px
+    width: 100%
+    background-color: $mainYellowColor
+    border: none
+    outline: none
+    font-family: $addTitleFont
+    text-transform: uppercase
+    color: white
+    font-size: 18px
+    letter-spacing: 0.02em
+    // &:hover
+    //     background-color: $mainYellowColor
+.modal-close
+    display: block
+    position: absolute
+    top: 18px
+    right: 18px
+    width: 26px
+    height: 24px
+    background-image: url(../img/spritesheetclose.png)
+    background-position: -5px -5px
+    &:hover
+        background-position: -39px -5px
+
+.mod-thank
+    height: 132px
+    margin-top: -66px
+    .text-wrap
+        box-sizing: border-box
+        height: 132px
+        width: 100%
+        background-color: #f0f0f0
+        padding: 48px 48px 35px 48px
+        .modal-title
+            font-family: $addTitleFont
+            font-size: 30px
+            line-height: 1
+            letter-spacing: 0.02em
+            font-weight: 500
+            margin-bottom: 5px
+        p
+            font-family: $addFont
+            font-size: 18px
+            line-height: 1
+            letter-spacing: 0.02em
+            color: $textAddGrayColor
+
+.mod-discount
+    height: 379px
+    margin-top: -190px
+    .text-wrap
+        height: 150px
+    select
+        height: 55px
+        margin-top: 16px
+        width: 100%
+        border: none //1px solid $mainGreenColor
+        color: $mainGreenColor
+        font-family: $textGrayColor
+        font-size: 1.8rem
+        padding: 0 20px
+        &:focus
+            outline: none
+        &:focus > option
+            outline-color: $mainGreenColor
+            option
+                width: 100%
+                border: 1px solid $mainGreenColor
+                color: $textGrayColor
+                font-family: $addFont
+                font-size: 1.8rem
+                padding: 0 20px
+                outline: none
+                &:focus
+                    outline: $mainGreenColor
+    .tel-input-wrap
+        height: 174px
+        input
+            margin-top: 10px
+
+#overlay 
+	z-index: 3
+	position: fixed
+	background-color: #000
+	opacity: 0.8
+	-moz-opacity: 0.8
+	filter: alpha(opacity=80)
+	width: 100%
+	height: 100%
+	top: 0
+	left: 0
+	cursor: pointer
+	display: none
+.modal_out
+    //position: fixed
+    overflow: hidden
+    height: 100%
+    width: 100%
+    //min-height: 100%
+
+
+/////////////////==================================================
+
+
+//.................For delete
+.b-carousel  
+    width: 100%
+    height: 500px
+    margin: 0
+    position: relative
+.h-carousel-wrapper
+    width: 100%
+    position: relative
+    overflow: hidden
+    margin: 0 auto
+    .h-carousel-items
+        width: 10000px
+        position: relative
+        .b-carousel-block
+            float: left
+            width: 281px
+            padding: 0 17px
+            position: relative
+            .a-carousel-image-link
+                display: block
+                width: 281px
+                height: 500px
+                overflow: hidden
+.b-carousel-button-left, .b-carousel-button-right
+    width: 17px
+    height: 26px
+    position: absolute
+    top: 50%
+    cursor: pointer
+    z-index: 10
+.b-carousel-button-left
+    left: -10px
+    background: url(../img/slider-next.png)
+    background-repeat: no-repeat
+    transform: rotate(180deg)
+.b-carousel-button-right 
+    right: -10px
+    background: url(../img/slider-next.png)
+    background-repeat: no-repeat
+
+
+
+
+@import "__media"

@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script src="dist/jquery.blink.js"></script>
+
+    <script>
+
+        $(document).ready(function() {
+            $('.blink-default').blink({delay: 200});
+            $('.blink-custom').blink();
+        });
+
+    </script>
+</head>
+
+<body>
+    <span class="blink-default">this</span> is some <span class="blink-default">blinking</span> text.
+    <span class="blink-custom" data-blink-delay=200>this</span> is some <span class="blink-custom" data-blink-delay=2000>blinking</span> text.
+</body>
+
+</html>
